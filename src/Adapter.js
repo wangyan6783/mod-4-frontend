@@ -5,7 +5,7 @@ class Adapter {
   }
 
   static getLocalVideoLikes(id) {
-    return fetch(`http://localhost:3001/api/v1/videos/${id}/likes`).then(r => r.json())
+    return fetch(`https://reallycooltubebackend.herokuapp.com/api/v1/videos/${id}/likes`).then(r => r.json())
   }
 
   static fetchPost(url, fetchBody) {
