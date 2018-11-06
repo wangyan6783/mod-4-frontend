@@ -73,7 +73,7 @@ const mapDispatchToProps = (dispatch) => {
           })
         }
 
-      return fetch("http://localhost:3001/api/v1/user/login", {
+      return fetch("https://reallycooltubebackend.herokuapp.com/api/v1/user/login", {
           method: 'POST',
           headers: {
             "Accept": 'application/json',
@@ -111,7 +111,7 @@ const mapDispatchToProps = (dispatch) => {
       const username = event.target.username.value
       const password = event.target.password.value
 
-      fetch("http://localhost:3001/api/v1/user/signup", {
+      fetch("https://reallycooltubebackend.herokuapp.com/api/v1/user/signup", {
         method: 'POST',
         headers: {
           "Accept": 'application/json',

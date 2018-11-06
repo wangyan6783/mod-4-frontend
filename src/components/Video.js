@@ -26,7 +26,7 @@ class Video extends Component {
     } else if (this.props.userVideos.find(video => video.id.videoId == this.props.video.id.videoId)){
       alert("You aleady liked this video")
     } else {
-      const url = "http://localhost:3001/api/v1/videos/like"
+      const url = "https://reallycooltubebackend.herokuapp.com/api/v1/videos/like"
       const fetchBody = {
         video: {
           name: this.props.video.snippet.title,

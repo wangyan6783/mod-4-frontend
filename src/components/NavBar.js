@@ -9,7 +9,7 @@ class NavBar extends Component {
     this.setState({ activeItem: name })
     // debugger
     if (e.target.innerText === "Logout"){
-      window.location.href = "http://localhost:3000/"
+      window.location.href = "https://reallycooltube.herokuapp.com/"
     }
   }
 
