@@ -66,7 +66,7 @@ class Home extends Component {
   render(){
     return (
       <Fragment>
-        <h1 id="homepage-title">Really Cool App</h1>
+        <h1 id="homepage-title">Really Cool Tube</h1>
         <br />
         <br />
         <Search handleSearch={this.handleSearch} />
