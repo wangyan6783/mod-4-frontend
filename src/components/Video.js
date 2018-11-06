@@ -52,7 +52,7 @@ class Video extends Component {
   render() {
     const {video, handleLike} = this.props
     const videoId = video.id.videoId;
-    const videoUrl = `http://www.youtube.com/embed/${videoId}`;
+    const videoUrl = `https://www.youtube.com/embed/${videoId}`;
 
     const time = video.snippet.publishedAt.split("T")[0]
 
